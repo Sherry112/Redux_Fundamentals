@@ -1,4 +1,4 @@
-This project is deployed on Firebase Hosting and accessed via [Redux Fundamentals](https://redux-fundamentals-38b26.web.app/).
+This project is deployed on Firebase Hosting and accessed via this link [Redux Fundamentals](https://redux-fundamentals-38b26.web.app/).
 
 All the fundamental concepts of Redux are incorporated in this project. The details are decribed in comments.
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
