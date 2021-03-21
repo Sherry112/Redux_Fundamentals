@@ -1,13 +1,12 @@
-import * as actionTypes from '../actions/actionTypes';
-import {updateObject} from '../utlility'
-
+import * as actionTypes from "../actions/actionTypes";
+import { updateObject } from "../utlility";
 
 const initialState = {
   counter: 0,
 };
 
 const counter_reducer = (state = initialState, action) => {
-    if (action.type === actionTypes.INCREMENT) {
+  if (action.type === actionTypes.INCREMENT) {
     return {
       ...state,
       counter: state.counter + 1,
@@ -22,11 +21,13 @@ const counter_reducer = (state = initialState, action) => {
   if (action.type === actionTypes.ADDITION) {
     return {
       ...state,
-      counter: state.counter  + action.payload.value,
+      counter: state.counter + action.payload.value,
     };
   }
   if (action.type === actionTypes.SUBTRACTION) {
-    return updateObject(state, {counter: state.counter - action.payload.value}) //A utility function
+    return updateObject(state, {
+      counter: state.counter - action.payload.value,
+    }); //A utility function
   }
   return state;
 };
