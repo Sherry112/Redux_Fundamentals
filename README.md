@@ -7,10 +7,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 - [Project Setup](#project-setup)
 - [Middleware](#middleware)
-- Data Logging(#data-logging)
-- Chrome Extension(#chrome-extension)
-- Changing State Immutably(#changing-state-immutably)
-- Firebase deployment(#firebase-deployment)
+- [Data Logging](#data-logging)
+- [Chrome Extension](#chrome-extension)
+- [Changing State Immutably](#changing-state-immutably)
+- [Firebase deployment](#firebase-deployment)
 
 
 ## Project Setup
